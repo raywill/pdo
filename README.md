@@ -1,6 +1,6 @@
 ## 使用方法
 ~~~
-use logoove\pdo\Pdo;
+use raywill\pdo\Pdo;
 $db = new Pdo('localhost','root','111','3306','tp','oauth_');//主机地址,数据库帐号,密码,端口,表名,表前缀
 var_dump($db->get('users'));//查询一条数据
 $db->debug();//显示调试语句
