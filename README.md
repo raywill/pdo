@@ -1,11 +1,3 @@
-# PDO封装方法
-
-更新到了微擎最新1.7,使用方法与微擎一样,不过调用方式采用的是命名空间的方法.
-
-## 安装方法
-
-`composer require logoove/pdo`
-
 ## 使用方法
 ~~~
 use logoove\pdo\Pdo;
