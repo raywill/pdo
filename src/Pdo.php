@@ -1,14 +1,14 @@
 <?php
 /**
  * PDO类的封装,使用更方便,方法名称同微擎,不过需要类调用,在微擎内提取出来的
-use logoove\pdo\Pdo;
+use raywill\pdo\Pdo;
 $db = new Pdo('localhost','root','111','3306','tp','oauth_');
 var_dump($db->get('users'));
 $db->debug();//显示调试语句
  * date 2018.5.21
  * author yoby
  */
-namespace logoove\pdo;
+namespace raywill\pdo;
 
 class Pdo{
     protected $host;
