@@ -1,5 +1,5 @@
 {
-	"name": "logoove/pdo",
+	"name": "raywill/pdo",
 	"description": "an easy to use mysql pdo wrapper extracted from we7",
 	"license": "MIT",	
 	"authors": [{
@@ -9,7 +9,7 @@
 	"require": {},
 	"autoload": {
 		"psr-4": {
-			"logoove\\pdo\\": "src"
+			"raywill\\pdo\\": "src"
 		}
 	}
 }
